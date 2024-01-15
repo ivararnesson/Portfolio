@@ -6,11 +6,9 @@ import HTML from '../assets/html.png';
 import ReactLogo from '../assets/react.png';
 import Github from '../assets/github.png';
 
-const IMAGE_PATH = process.env.PUBLIC_URL + '/static/media/';
-
 export const Experience = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f]  text-gray-300'>
+    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
@@ -20,22 +18,22 @@ export const Experience = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={IMAGE_PATH + 'JavaScript-logo.266bd9fb2663dcc057b4.png'} alt='Javascript' />
+            <img className='w-20 mx-auto' src={Javascript} alt='Javascript' />
             <p>JAVASCRIPT</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={IMAGE_PATH + 'html.2ba4fabc69a89a8f71e6.png'} alt='HTML' />
+            <img className='w-20 mx-auto' src={HTML} alt='HTML' />
             <p>HTML</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={IMAGE_PATH + 'css.69a82c2d9e45c933a9cb.png'} alt='CSS' />
+            <img className='w-20 mx-auto' src={CSS} alt='CSS' />
             <p>CSS</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={IMAGE_PATH + 'react.0cf951a69d8e58f83f9d.png'} alt='React' />
+            <img className='w-20 mx-auto' src={ReactLogo} alt='React' />
             <p>REACT</p>
           </div>
 
@@ -45,7 +43,7 @@ export const Experience = () => {
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={IMAGE_PATH + 'github.3b9e32903aa89111875d.png'} alt='Github' />
+            <img className='w-20 mx-auto' src={Github} alt='Github' />
             <p>GITHUB</p>
           </div>
         </div>
