@@ -18,7 +18,7 @@ export const Experience = () => {
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png'} alt='Javascript' />
+                    <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + 'static/media/JavaScript-logo.266bd9fb2663dcc057b4.png'} alt='Javascript' />
                     <p>JAVASCRIPT</p>
                 </div>
             
