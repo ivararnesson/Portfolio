@@ -1,6 +1,6 @@
 import React from 'react';
 import Javascript from '../assets/JavaScript-logo.png';
-import CSS from '../assets/css.png';
+import CSS from '../assets/Css.png';
 import Csharp from '../assets/Csharp.png';
 import HTML from '../assets/html.png';
 import ReactLogo from '../assets/react.png';
