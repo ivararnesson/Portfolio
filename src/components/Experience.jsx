@@ -1,9 +1,9 @@
 import Javascript from '../../static/media/JavaScript-logo.266bd9fb2663dcc057b4.png';
-import CSS from '../../static/media/Css.png';
+import CSS from '../../static/media/css.69a82c2d9e45c933a9cb.png';
 import Csharp from '../../static/media/Csharp.png';
-import HTML from '../../static/media/html.png';
-import ReactLogo from '../../static/media/react.png';
-import Github from '../../static/media/github.png';
+import HTML from '../../static/media/html.2ba4fabc69a89a8f71e6.png';
+import ReactLogo from '../../static/media/react.0cf951a69d8e58f83f9d.png';
+import Github from '../../static/media/github.3b9e32903aa89111875d.png';
 
 export const Experience = () => {
   return (
