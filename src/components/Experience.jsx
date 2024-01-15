@@ -18,20 +18,20 @@ export const Experience = () => {
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Javascript} alt='Javascript' />
+                    <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png'} alt='Javascript' />
                     <p>JAVASCRIPT</p>
                 </div>
             
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={HTML} alt='HTML' />
+                    <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/static/media/html.2ba4fabc69a89a8f71e6.png'} alt='HTML' />
                     <p>HTML</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CSS} alt='CSS' />
+                    <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/static/media/css.69a82c2d9e45c933a9cb.png'} alt='CSS' />
                     <p>CSS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={ReactLogo} alt='React' />
+                    <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/static/media/react.0cf951a69d8e58f83f9d.png'} alt='React' />
                     <p>REACT</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -39,7 +39,7 @@ export const Experience = () => {
                     <p>C#</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Github} alt='Github' />
+                    <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + 'static/media/github.3b9e32903aa89111875d.png'} alt='Github' />
                     <p>GITHUB</p>
                 </div>
             </div>
